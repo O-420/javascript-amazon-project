@@ -79,8 +79,8 @@ function Cart(localStorageKey){
    return cart;
 }
 
-
-
+const cart = Cart('cart-oop');
+const bussinesCart = Cart('cart-bussines');
 
 cart.loadFromStorage();
 
