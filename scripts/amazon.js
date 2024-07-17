@@ -1,11 +1,11 @@
 import {cart, addToCart} from '../data/cart.js';
-import {products, loadProducts} from '../data/products.js';
+import {products} from '../data/products.js';
 import {formatCurrency} from './utils/money.js';
 
-loadProducts(renderProductsGrid);
+//loadProducts(renderProductsGrid);
 
 
-function renderProductsGrid(){
+//function renderProductsGrid(){
   let productsHTML = '';
 
   products.forEach((product) => {
@@ -85,4 +85,4 @@ function renderProductsGrid(){
         updateCartQuantity();
       });
     });
-}
+//}

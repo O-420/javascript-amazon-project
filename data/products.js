@@ -61,6 +61,7 @@ class Clothing extends Product{
   }
 }
 
+/*
 export let products = [];
 
 export function loadProducts(fun){
@@ -88,8 +89,9 @@ export function loadProducts(fun){
 }
 
 loadProducts();
+*/
 
-/*export const products = [
+export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
@@ -758,4 +760,3 @@ loadProducts();
   return new Product(productDetails);
 
 });
-*/
